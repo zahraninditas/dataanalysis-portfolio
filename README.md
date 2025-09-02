@@ -5,10 +5,15 @@ This repository showcases several projects that demonstrate my skills in **data 
 
 ## 🔎 Projects
 
-### 1. [Fashion Clothing](./Fashion%20Clothing/README.md)
-- 📂 Dataset: Clothing product dataset  
-- 🧹 Data Cleaning with Python  
-- 📊 Interactive Dashboard in Tableau  
+### 1. [Fashion Clothing](./Fashion%20Clothing)
+- **Problem**: Understanding sales performance and customer behavior in fashion clothing retail.  
+- **Goal**: Analyze sales trends, product performance, and customer segments to support business strategy.  
+- **Skills & Tools**: Python, Pandas, Matplotlib, Seaborn, Data Visualization.
+
+### 2. [FinanKu Credit Card Late Payment Prediction](./FinanKu)
+- **Problem**: Late credit card payments can cause significant losses to the business.  
+- **Goal**: Build a machine learning model to predict customers with high risk of late payment (Target: Accuracy & Recall > 60%).  
+- **Skills & Tools**: Python, Pandas, Scikit-learn, Feature Engineering, Classification Models (Logistic Regression, Random Forest, XGBoost).  
 
 ---
 
