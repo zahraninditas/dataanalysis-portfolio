@@ -1,36 +1,36 @@
+
 # 💳 FinanKu Credit Card Late Payment Prediction
 
 ## 📌 Problem Statement
-There is a concern about late credit card payments at **FinanKu**, which can negatively impact the business.  
-Therefore, it is necessary to predict customers with a high risk of late payment in order to design appropriate strategies to mitigate future risks.
+Terdapat kekhawatiran mengenai keterlambatan pembayaran kartu kredit di FinanKu, yang dapat berdampak negatif pada bisnis.
+Oleh karena itu, diperlukan prediksi terhadap nasabah dengan risiko tinggi terlambat bayar untuk merancang strategi yang tepat dalam mengurangi risiko di masa mendatang.
 
 ## 🎯 Objective
-Build a machine learning model that can predict **at least 60%** of customers who are likely to be late in credit card payments  
-(Target: **Accuracy & Recall above 60%**).
+Membangun model machine learning yang dapat memprediksi setidaknya 60% nasabah yang berpotensi mengalami keterlambatan pembayaran kartu kredit
+(Target: Akurasi & Recall di atas 60%).
 
 ## 📂 Dataset & Variables
-The dataset consists of customer information with the following variables:
-
-1. **Customer ID**: Unique customer identifier  
-2. **Branch**: Customer branch location  
-3. **City**: Customer city location  
-4. **Age**: Customer’s age during the observation period  
-5. **Avg. Annual Income/Month**: Average monthly income in one year  
-6. **Balance (Q1–Q4)**: Quarter-end balance  
-7. **Num of Products (Q1–Q4)**: Number of products owned at quarter-end  
-8. **HasCrCard (Q1–Q4)**: Credit card ownership status  
-9. **Active Member (Q1–Q4)**: Membership activity status  
-10. **Unpaid Tagging**: Customer default (late payment) status  
-
+Dataset terdiri dari informasi nasabah dengan variabel sebagai berikut:
+1. **Customer ID**: ID unik nasabah  
+2. **Branch**: Lokasi cabang nasabah terdaftar 
+3. **City**: Kota domisili nasabah  
+4. **Age**: Usia nasabah pada periode observasi  
+5. **Avg. Annual Income/Month**: Rata-rata penghasilan bulanan dalam satu tahun  
+6. **Balance (Q1–Q4)**: Saldo akhir per kuartal  
+7. **Num of Products (Q1–Q4)**: Jumlah produk yang dimiliki di akhir kuartal  
+8. **HasCrCard (Q1–Q4)**: Status kepemilikan kartu kredit  
+9. **Active Member (Q1–Q4)**: Status keaktifan nasabah 
+10. **Unpaid Tagging**: Status keterlambatan pembayaran nasabah
+    
 ## 🔬 Experiment Setup
 - **Observation Period**:  
-  - Last 12 months  
-  - Last 6 months  
+  - 12 bulan terakhir
+  - 6 bulan terakhir
 
-- **Feature Engineering**:  
-  - Average balance across observation horizon, and balance change between start & end period  
-  - Product ownership: average, max, and min  
-  - Active membership calculated in months  
+- **Feature Engineering**:
+  - Rata-rata saldo selama periode observasi, serta perubahan saldo antara awal & akhir periode
+  - Kepemilikan produk: rata-rata, maksimum, dan minimum
+  - Keaktifan nasabah dihitung dalam bulan
 
 ## 🛠 Tools & Skills
 - **Python (Jupyter Notebook)** → Data cleaning, preprocessing, modeling  
@@ -39,6 +39,6 @@ The dataset consists of customer information with the following variables:
 - **Classification Models** → Logistic Regression, Gradient Boosting, Random Forest  
 
 ## 📈 Expected Outcome
-- A predictive model with **Accuracy & Recall > 60%**  
-- Identification of key factors influencing late payments  
-- Insights to support business decision-making for credit risk management  
+- Model prediksi dengan Akurasi & Recall > 60%
+- Identifikasi faktor utama yang memengaruhi keterlambatan pembayaran
+- Insight untuk mendukung pengambilan keputusan bisnis terkait manajemen risiko kredit 
