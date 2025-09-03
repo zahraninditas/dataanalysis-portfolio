@@ -15,6 +15,10 @@ This repository showcases several projects that demonstrate my skills in **data 
 - **Goal**: Build a machine learning model to predict customers with high risk of late payment (Target: Accuracy & Recall > 60%).  
 - **Skills & Tools**: Python, Pandas, Scikit-learn, Feature Engineering, Classification Models (Logistic Regression, Random Forest, XGBoost).  
 
+### 3. [Superstore Sales Dashboard](./SuperStore)
+- **Problem**: Large sales datasets are difficult to interpret without visualization, making it challenging for management to identify the most profitable products, customers, and promotional strategies.  
+- **Goal**: Build an interactive dashboard to analyze sales performance, profit, product trends, customer segmentation, and the impact of discounts on profitability.  
+- **Skills & Tools**: Google Looker Studio, Dashboard Design, Data Visualization
 ---
 
 ✨ More projects will be added soon!
