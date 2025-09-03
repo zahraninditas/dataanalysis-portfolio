@@ -37,8 +37,6 @@ Insight: Promosi diskon besar tidak efektif dan justru menurunkan profit.
 
 # 🛠️ Tools 
 Google Looker Studio → dashboard & data visualization.
-Diskon besar (>20%) perlu dihindari karena menyebabkan kerugian.
 
-Segmentasi customer memberikan insight bahwa Consumer paling dominan, namun Corporate memiliki margin lebih baik.
-
-Insight lokasi & shipping dapat membantu optimasi logistik.
+# 📷 Dashboard Preview
+(https://lookerstudio.google.com/reporting/0da58e92-332c-49b6-a41c-0d5d4d8aeb63/page/A7jWF)
