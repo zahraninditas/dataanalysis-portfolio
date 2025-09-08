@@ -1,4 +1,4 @@
-## Super Store Dashboard – Data Visualization with Looker Studio
+## Super Store Dashboard
 # 📌 Project Overview
 Proyek ini bertujuan untuk menganalisis dataset Superstore dengan bantuan Google Looker Studio.
 Dashboard yang dibuat menyajikan insight mengenai penjualan, profit, produk, customer, segmentasi, discount, dan operasional sehingga dapat membantu pengambilan keputusan bisnis.
